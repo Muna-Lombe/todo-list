@@ -3,7 +3,7 @@ import './App.css';
 import Form from './components/Form';
 import Header from './components/Header'
 import ListTasks from './components/ListTasks';
-import {createElement, useState} from 'react'
+import {useState} from 'react'
 
 
 function App(title) {
@@ -62,11 +62,6 @@ function App(title) {
   const toggleShow= ()=>{
     console.log(show)
     setShow(!show)
-  }
-
-  const totalCompleted= ()=>{
-    return 
-  
   }
 
   return (
